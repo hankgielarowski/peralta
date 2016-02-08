@@ -1,0 +1,267 @@
+html {
+  background-image: url('assets/bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+header {
+  margin-bottom: -2%;
+  margin-top: -2%;
+  margin-right: 3px;
+  text-align: right;
+}
+
+
+body {
+  height:2000px;
+  width:60%;
+  margin:0 auto;
+}
+div.overlay {
+  position: fixed;
+  background-color: #212326;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.5;
+  z-index: -1;
+}
+.fa-ul li {
+  display: -webkit-inline-box;
+}
+.subscribe {
+  color: white;
+  font-size: 9px;
+  font-family: sans-serif;
+  vertical-align: middle;
+  margin-right: 19%;
+  margin-top: 13%;
+  margin-left: -17%;
+}
+nav {
+  display: -webkit-inline-box;
+  text-align: right;
+}
+li img {
+  height:28px;
+  width:28px;
+}
+
+.buttons button {
+  background-color: #910a0a;
+  color: white;
+  font-size: 14px;
+  width: 24.5%;
+}
+.bigpicture{
+  border: 4px solid white;
+  background-image: url('assets/top-image.png');
+  background-position-x: 0px;
+  background-position-y: -43px;
+  background-size: 101%;
+  background-repeat: no-repeat;
+  margin-top: 10px;
+  min-width: 50%;
+  min-height: 13%;
+}
+.skateboards li {
+  height: 5%;
+  width: 40%;
+  margin-top: 3%;
+  margin-left: 5%;
+}
+aside {
+  vertical-align: top;
+  display:-webkit-box;
+  width: 33.5%;
+  margin-top: 6%;
+}
+.box {
+  text-align: left;
+  margin: 2%;
+  background-color: white;
+  padding: 7%;
+}
+h2 {
+  font-size: 18px;
+}
+h4 {
+  color: lightgray;
+}
+h1 {
+  color: #910a0a;
+  font-size: 18px;
+}
+p {
+  font-size: 10px;
+}
+h3 {
+  color: white;
+  text-align: center;
+  margin-top: 18%;
+  font-size: 40px;
+}
+.lance{
+  background-image: url('assets/sk8er-4.png');
+  border: 2px solid white;
+  display: inline-block;
+  width: 32.9%;
+  height: 180px;
+  background-size: 130%;
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+
+
+
+}
+.rodney {
+  background-image: url('assets/sk8er-3.png');
+  border: 2px solid white;
+  display: inline-block;
+  width: 32.3%;
+  height: 180px;
+  background-size: 137%;
+  background-repeat: no-repeat;
+  background-position-x: 0%;
+  margin-left: .9%;
+
+}
+.steve {
+  background-image: url('assets/sk8er-1.png');
+  border: 2px solid white;
+  display: inline-block;
+  width: 101%;
+  height: 180px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position-x: 83%;
+  background-position-y: 70%
+  width: 99.5%;
+  margin-top: 2%;
+}
+.pictures4 {
+  width: 100%;
+  display: -webkit-inline-box;
+  position: relative;
+}
+.arrow-right {
+  border-color: transparent #910a0a;
+  border-style: solid;
+  border-width: 30px 0px 30px 30px;
+  height: 0px;
+  width: 8px;
+  position: absolute;
+  left:-5.2%;
+  top:17%;
+}
+.arrowblock{
+  background-color: #910a0a;
+  width: 141px;
+  height:60px;
+  position: absolute;
+  left:-24%;
+  top:17%;
+}
+.arrowtext {
+  color:white;
+  position: absolute;
+  left: -23%;
+  top: 22.5%;
+}
+
+.pictures2 {
+  width: 150.5%;
+  display: inline-block;
+}
+.tommy {
+  background-image: url('assets/sk8er-2.png');
+  border: 2px solid white;
+  display: inline-block;
+  width: 99%;
+  margin-left: 6%;
+  height: 375px;
+  background-position-x: 81%;
+  background-position-y: 10%;
+  background-size: 284%;
+  background-repeat: no-repeat;
+}
+
+.leftcol, .rightcol {
+  display: inline-block;
+  vertical-align: top;
+}
+.leftcol {
+  width: 65%;
+}
+.rightcol {
+  width:32%;
+}
+.tommytext {
+  margin-top: 57%;
+}
+.stevetext {
+  margin-top: 15%;
+}
+.skateboards {
+  background-color: white;
+  width:100%;
+  margin-top: 1%;
+}
+img {
+  margin-left:1%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+.contact {
+  width: 100%;
+  display: block;
+  background-color: white;
+  border: 2px solid black;
+  height: 11%;
+  margin-top: 1%;
+}
+.left-coltwo {
+  width:53%;
+  display:inline-block;
+  vertical-align: top;
+  margin: 1%;
+}
+.right-coltwo {
+  width:40%;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 5%;
+}
+input {
+  display:block;
+  margin:0%;
+  width: 100%;
+  margin-bottom: 1%;
+}
+input[name="yourmessage"] {
+height: 57px;
+-webkit-box-shadow: 0 0 10px gray;
+}
+input[name="name"] {
+  height: 25px;
+  -webkit-box-shadow: 0 0 10px gray;
+}
+input[name="email"] {
+  height: 25px;
+  -webkit-box-shadow: 0 0 10px gray;
+}
+
+
+.right-coltwo button {
+  background-color: #910a0a;
+  color: white;
+  font-size: 14px;
+  width: 50%;
+  margin-left: 51.5%;
+  margin-top: 3%;
+}
+.icons li {
+  display: inline-block;
+  filter:grayscale(100%);
+  -webkit-filter: grayscale(100%);
+}
